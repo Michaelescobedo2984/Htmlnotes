@@ -62,9 +62,38 @@
 
     <p style="background-color: #222831; color: #dddddd; font-family: 'Edwardian Script ITC'; font-size: 72px">This paragraph has all 4 inline styles.</p>
 
+    <h1 style="color: #f05454">Images</h1>
 
+    <p>An<b> is a <i> block</i> element which inserts pictures into the document. An image element is a self-closing element which means it dose not have an end tag. It has one attribute, src, which is a filepath that points to the images location. Those filepaths can be either <b>absolute</b> or <b>relative.</b></p>
 
+    <h2>Simple Image Example</h2>
+    <img src="https://www.sierraclub.org/sites/www.sierraclub.org/files/styles/flexslider_full/public/sierra/articles/big/SIERRA-iStock-1084289620-WB.jpg">
 
+    <h2>Images Attributes</h2>
+    <p>There are 4 attributes commonly used for images. <i>width</i> and <i>height</i> are used to resize the images. <i>alt</i> allows to use text-description of image for accessibility and broken images. <i>title</i> allows a hover-over text to appear.</p>
+
+    <h3>Width and Height</h3>
+    <p>The width and height can be measured in many different ways, but the more common ones are pixels and percentages. Using pixels, you set the specific, precise size based on pixels. using percentages, you set the dimensions based on a percentage of the entire page. Percentage based re-sizing will often respect aspect ratio while using pixels may not.</p>
+
+    <img src="https://www.sierraclub.org/sites/www.sierraclub.org/files/styles/flexslider_full/public/sierra/articles/big/SIERRA-iStock-1084289620-WB.jpg" title="Set width and height using pixels" width="150px" height="150px">
+
+    <img src="https://www.sierraclub.org/sites/www.sierraclub.org/files/styles/flexslider_full/public/sierra/articles/big/SIERRA-iStock-1084289620-WB.jpg" title="Set width and height using pixels and maintaining aspect ratio" width="150px">
+
+    <img src="https://www.sierraclub.org/sites/www.sierraclub.org/files/styles/flexslider_full/public/sierra/articles/big/SIERRA-iStock-1084289620-WB.jpg" title="Set using percentages" width="100%">
+
+    <h3>Alt Attribute</h3>
+    <p>EVERY picture should at LEAST have the alt attribute. The alt attribute helps with screen readers for visually impaired users and in the cases that the image is broken</p>
+
+    <img src="https://www.sierraclub.org/sites/www.sierraclub.orgstyles/flexslider_full/public/sierra/articles/big/SIERRA-iStock-1084289620-WB.jpg" title="broken link without alt width="150px">
+
+    <img src="https://www.sierraclub.org/sites/www.sierraclub.org/files/styles/flexslider_full/public/sierra/articles/big/SIERRA-iStock-1084289620-WB.jpg" title="broken link with alt" width="150px" alt="picture of river running through taiga and mountain">
+
+    <h2>Relative vs. Absolute</h2>
+    <p>An <b>absolute</b> filepath includes all the navigate to get to the server, folders and files. The example above are all absolute filepaths. An absolute filepath is used when the image is stored on a different server or devise than the HTML document. </p>
+
+    <p>A <b>relative</b> filepath only include the folder and file. The examples below are all relative filepaths. A relative filepath is used when the images are stored alongside the HTML document.</p>
+
+    <img src="Tree%20in%20forest.jpg" width="50%" alt="tree">
 
 </body>
 </html>
